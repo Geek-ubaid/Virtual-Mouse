@@ -13,18 +13,18 @@ control actions.
 The project works on the concept of colour segmentation. The colour detected are mapped on the live cam
 feed and are processed to find the appropriate gesture. The methods and concept used are:
 - For Image Processing:
-● Thresholding
-● Segmentation
-● Contouring
-● Morphological Transformations (Dilation/Erosion)
+-- Thresholding
+-- Segmentation
+-- Contouring
+--  Morphological Transformations (Dilation/Erosion)
 - For Gesture Recognition:
-● Calculated Centroid DIstance
-● Detected the no of contours
-● Calculated maximum area of the contours detected
+-- Calculated Centroid DIstance
+-- Detected the no of contours
+-- Calculated maximum area of the contours detected
 - For Mouse actions:
-● Maintained the aspect ratio of screen
-● Creating a stack of action for smooth execution of action
-● Mapped the mouse pointer to the movement of contours
+-- Maintained the aspect ratio of screen
+-- Creating a stack of action for smooth execution of action
+-- Mapped the mouse pointer to the movement of contours
 
 ## Dependencies
 - opencv
